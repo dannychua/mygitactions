@@ -15,7 +15,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        if [ -f requirements.txt]; then python -m pip install -r requirements.txt; fi
+        if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
 
     - name: Run main.py
       run: python main.py
