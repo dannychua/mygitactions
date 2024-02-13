@@ -15,9 +15,10 @@ def print_repo_details(repo_path='.'):
             print(f"Date: {commit.authored_datetime}")
             print(f"Message: {commit.message}")
         else:
-            print('The repo is bare.')
+            print("The repo is bare.")
     except Exception as e:
         print(f'Error accessing repo at "{repo_path}": {e}')
+
 
 def hello():
     print("hi")
