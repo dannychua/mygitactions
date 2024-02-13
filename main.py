@@ -3,7 +3,7 @@ import os
 from git import Repo
 
 
-def print_repo_details(repo_path='.'):
+def print_repo_details(repo_path="."):
     try:
         repo = Repo(repo_path)
         if not repo.bare:
