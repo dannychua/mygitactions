@@ -1,5 +1,7 @@
-from git import Repo
 import os
+
+from git import Repo
+
 
 def print_repo_details(repo_path='.'):
     try:
